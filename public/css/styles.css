@@ -1,0 +1,136 @@
+/* General reset and styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "KoHo", sans-serif; /* Cambiar la fuente a KoHo */
+  background-color: #f8f9fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+header {
+  background-color: #002f6c;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.header-logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #333;
+}
+
+/* Section styling */
+/* Espaciado entre secciones */
+.section {
+  margin: 20px; /* Cambia el valor según sea necesario */
+  background-color: #f8f9fa;
+  flex-grow: 0;
+}
+
+/* Estilo de los títulos de sección */
+.section-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003da6;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+/* Cards container */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px; /* Ajustar el margen para separar las secciones */
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 350px;
+  padding: 30px; /* Ajustar el padding para mejor apariencia */
+  margin: 10 10; /* Eliminar margen superior, mantener márgenes laterales */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra en la parte inferior de la tarjeta */
+  text-align: center;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #003da6;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.interest-button {
+  font-family: "KoHo", sans-serif; /* Aplicar la fuente KoHo al botón */
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto; /* Centrar el botón horizontalmente */
+  display: block; /* Para permitir el margen auto */
+}
+
+.interest-button:hover {
+  background-color: #e65500;
+}
+
+/* Footer styles */
+footer {
+  margin-top: auto; /* Empuja el footer hacia el fondo */
+  background-color: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  margin-right: 20px;
+}
+
+footer img {
+  height: 40px;
+}
+
+/* Ajustes específicos para reducir el espacio entre secciones */
+.section-captaciones {
+  margin-bottom: 30px; /* Reducir margen inferior para Captaciones */
+}
